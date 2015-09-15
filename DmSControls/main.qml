@@ -25,5 +25,13 @@ ApplicationWindow {
         text: qsTr("Hello World")
         anchors.centerIn: parent
     }
+
+    MouseArea {
+        id: mouseArea1
+        x: -75
+        y: 47
+        width: 100
+        height: 100
+    }
 }
 
